@@ -33,5 +33,5 @@ Primary development is on GitLab. This GitHub organization mirrors a few things
 and exists so GitHub-only folks can follow along.
 
 - **Umbrella / main repo:** https://gitlab.com/qsoe/os
-- **Project site (source):** https://github.com/qsoe/site — served at https://qsoe.net
-- **Dev log / blog:** https://qsoe.blogspot.com
+- **Project site (source):** https://github.com/qsoe-dev/site — served at https://qsoe.net
+- **Dev log / blog:** https://qsoe-dev.blogspot.com
