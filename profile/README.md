@@ -10,9 +10,9 @@ QSOE comes in two variants that share one userspace and one build system:
   project (SMP by design).
 - **QSOE/L** runs on **seL4** as the kernel.
 
-Both are assembled by the **Umbrella** build system, which selects kernel and
-userspace components Kconfig-style. Userspace is shared across both variants;
-only the task manager (`taskman`) differs per kernel.
+Both systems can be compiled with a single **make** command in the top-level repository, which clones necessary
+component versions and builds kernels and modpkg archives (QSOE's equivalent of initrd). Userspace is shared across both variants;
+only the task manager (`taskman`) and libc differ per kernel.
 
 **License:** Apache-2.0
 
